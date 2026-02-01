@@ -76,9 +76,6 @@ def synthesize_result(user_request: str) -> str:
     """
     Leader reads plan, impl, and test artifacts and produces
     a final user-facing summary.
-
-    In practice, have the Leader agent rewrite this function
-    or its return value.
     """
     plan = read(PLAN_FILE)
     impl = read(IMPL_FILE)
